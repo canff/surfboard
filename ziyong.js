@@ -401,6 +401,14 @@ function main(config) {
       format: "text",
       type: "http"
     },   
+      ChinaCompanyIp: {
+      url: "https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaCompanyIp.list",
+      path: "./ruleset/ChinaCompanyIp.list",
+      behavior: "ipcidr",
+      interval: 86400,
+      format: "text",
+      type: "http"
+    }
   };
 
   config["rules"] = [
