@@ -117,8 +117,6 @@ function main(config) {
       ]
     },
     {
-    
-    {
       name: "哔哩哔哩",
       icon: "https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png",
       type: "select",
