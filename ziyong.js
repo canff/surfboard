@@ -263,79 +263,7 @@ function main(config) {
       interval: 86400,
       format: "text",
       type: "http"
-    },
-    BanAD: {
-      url: "https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanAD.list",
-      path: "./ruleset/BanAD.list",
-      behavior: "classical",
-      interval: 86400,
-      format: "text",
-      type: "http"
-    },
-    BanProgramAD: {
-      url: "https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanProgramAD.list",
-      path: "./ruleset/BanProgramAD.list",
-      behavior: "classical",
-      interval: 86400,
-      format: "text",
-      type: "http"
-    },
-    AD: {
-      url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/AD.yaml",
-      path: "./ruleset/AD.yaml",
-      behavior: "domain",
-      interval: 86400,
-      format: "yaml",
-      type: "http"
-    },
-    EasyList: {
-      url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/EasyList.yaml",
-      path: "./ruleset/EasyList.yaml",
-      behavior: "domain",
-      interval: 86400,
-      format: "yaml",
-      type: "http"
-    },
-    EasyListChina: {
-      url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/EasyListChina.yaml",
-      path: "./ruleset/EasyListChina.yaml",
-      behavior: "domain",
-      interval: 86400,
-      format: "yaml",
-      type: "http"
-    },
-    EasyPrivacy: {
-      url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/EasyPrivacy.yaml",
-      path: "./ruleset/EasyPrivacy.yaml",
-      behavior: "domain",
-      interval: 86400,
-      format: "yaml",
-      type: "http"
-    },
-    ProgramAD: {
-      url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/ProgramAD.yaml",
-      path: "./ruleset/ProgramAD.yaml",
-      behavior: "domain",
-      interval: 86400,
-      format: "yaml",
-      type: "http"
-    },
-    AdBlock_Reject: {
-      url: "https://cdn.jsdelivr.net/gh/REIJI007/AdBlock_Rule_For_Clash@main/adblock_reject.yaml",
-      path: "./ruleset/adblock_reject.yaml",
-      behavior: "classical",
-      interval: 86400,
-      format: "yaml",
-      type: "http"
-    },
-    AWAvenue_Ads_Rule: {
-      url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.yaml",
-      path: "./ruleset/AWAvenue-Ads-Rule-Clash.yaml",
-      behavior: "domain",
-      interval: 86400,
-      format: "yaml",
-      type: "http"
-    },
+    },    
     Google: {
       url: "https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Google.list",
       path: "./ruleset/Google.list",
@@ -414,15 +342,6 @@ function main(config) {
   config["rules"] = [
     "DOMAIN-SUFFIX,cloudflare.com,节点选择",
     "DOMAIN-SUFFIX,t.co,节点选择",
-    "RULE-SET,AWAvenue_Ads_Rule,广告拦截",
-    "RULE-SET,EasyPrivacy,广告拦截",
-    "RULE-SET,EasyListChina,广告拦截",
-    "RULE-SET,EasyList,广告拦截",
-    "RULE-SET,AD,广告拦截",
-    "RULE-SET,BanAD,广告拦截",
-    "RULE-SET,ProgramAD,广告拦截",
-    "RULE-SET,BanProgramAD,广告拦截",
-    "RULE-SET,AdBlock_Reject,广告拦截",
     "RULE-SET,LocalAreaNetwork,全球直连",
     "RULE-SET,UnBan,全球直连",
     "RULE-SET,Apple,苹果服务",
