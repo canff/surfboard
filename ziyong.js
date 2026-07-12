@@ -352,6 +352,7 @@ function main(config) {
     "DOMAIN-SUFFIX,t.co,节点选择",
     "RULE-SET,LocalAreaNetwork,全球直连",
     "RULE-SET,UnBan,全球直连",
+    "RULE-SET,Banad,广告拦截",
     "RULE-SET,Apple,苹果服务",
     "RULE-SET,Telegram,电报消息",
     "RULE-SET,YouTube,油管视频",
