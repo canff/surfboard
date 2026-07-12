@@ -267,7 +267,7 @@ function main(config) {
     Banad: {
       url: "https://raw.githubusercontent.com/canff/surfboard/refs/heads/main/Reject.list",
       path: "./ruleset/Reject.list",
-      behavior: "classical",
+      behavior: "domain",
       interval: 86400,
       format: "text",
       type: "http"
