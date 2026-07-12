@@ -263,6 +263,14 @@ function main(config) {
       interval: 86400,
       format: "text",
       type: "http"
+    },
+    Banad: {
+      url: "https://raw.githubusercontent.com/canff/surfboard/refs/heads/main/Reject.list",
+      path: "./ruleset/Reject.list",
+      behavior: "classical",
+      interval: 86400,
+      format: "text",
+      type: "http"
     },    
     Google: {
       url: "https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Google.list",
