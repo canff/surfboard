@@ -1,10 +1,10 @@
 #这里是单条分行格式，每条独立规则，适配 Loon / QuantumultX / Egern：
-DOMAIN,api-htp.beizi.biz,REJECT
-DOMAIN,c3.gdt.qq.com,REJECT
-DOMAIN,mi.gdt.qq.com,REJECT
-DOMAIN,sdk.beizi.biz,REJECT
-DOMAIN,sdk.e.qq.com,REJECT
-DOMAIN,sdkquic.e.qq.com,REJECT
-DOMAIN,sdktmp.hubcloud.com.cn,REJECT
-DOMAIN,v3.gdt.qq.com,REJECT
-DOMAIN,win.gdt.qq.com,REJECT
+DOMAIN,api-htp.beizi.biz
+DOMAIN,c3.gdt.qq.com
+DOMAIN,mi.gdt.qq.com
+DOMAIN,sdk.beizi.biz
+DOMAIN,sdk.e.qq.com
+DOMAIN,sdkquic.e.qq.com
+DOMAIN,sdktmp.hubcloud.com.cn
+DOMAIN,v3.gdt.qq.com
+DOMAIN,win.gdt.qq.com
