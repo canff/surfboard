@@ -4,9 +4,10 @@ function main(config) {
     config["proxy-groups"] = [
     {
       name: "手动选择1",
-      icon: "https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png",
+      icon: "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/UrlTest.png",
       type: "select",
       proxies: [
+        "美国节点",
         "香港节点",
         "日本节点",
         "自动选择",
@@ -20,36 +21,11 @@ function main(config) {
       icon: "https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png",
       type: "select",
       proxies: [
+        "美国节点",
         "占位节点",
         "自动选择",
         "香港节点",
         "日本节点"
-      ],
-      "include-all": true,
-      filter: "^(?!.*套餐)(?!.*剩余)(?!.*到期)(?!.*流量)(?!.*占位).*$"
-    },
-        {
-      name: "手动选择3",
-      icon: "https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Stack.png",
-      type: "select",
-      proxies: [
-        "占位节点",
-        "自动选择",
-        "台湾节点",
-        "狮城节点"
-      ],
-      "include-all": true,
-      filter: "^(?!.*套餐)(?!.*剩余)(?!.*到期)(?!.*流量)(?!.*占位).*$"
-    },
-        {
-      name: "手动选择4",
-      icon: "https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Stack.png",
-      type: "select",
-      proxies: [
-        "占位节点",
-        "自动选择",
-        "美国节点",
-        "韩国节点"
       ],
       "include-all": true,
       filter: "^(?!.*套餐)(?!.*剩余)(?!.*到期)(?!.*流量)(?!.*占位).*$"
@@ -59,7 +35,7 @@ function main(config) {
       icon: "https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png",
       type: "select",
       proxies: [
-        "手动聚合", "自动选择", "手动选择1", "手动选择2", "手动选择3", "手动选择4", "香港节点", "台湾节点", "狮城节点", "日本节点", "美国节点", "韩国节点"
+        "手动聚合", "自动选择", "手动选择1", "手动选择2",  "香港节点", "台湾节点", "狮城节点", "日本节点", "美国节点", "韩国节点"
       ]
     },
     {
@@ -70,13 +46,11 @@ function main(config) {
       tolerance: 50,
       url: "https://www.gstatic.com/generate_204",
       "prefer-asn": true,
-      "policy-priority": "手动选择1:1.3;手动选择2:1.3;手动选择3:0.7;手动选择4:0.7",
+      "policy-priority": "手动选择1:1.3;手动选择2:1.3",
       lazy: false,
       proxies: [
         "手动选择1",
         "手动选择2",
-        "手动选择3",
-        "手动选择4",
       ]
     },
     {
@@ -96,15 +70,15 @@ function main(config) {
       icon: "https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png",
       type: "select",
       proxies: [
-        "DIRECT", "节点选择", "香港节点", "台湾节点", "狮城节点", "日本节点", "美国节点", "韩国节点", "手动选择1", "手动选择2", "手动选择3", "手动选择4", "手动聚合", "自动选择"
+        "DIRECT", "节点选择", "香港节点", "台湾节点", "狮城节点", "日本节点", "美国节点", "韩国节点", "手动选择1", "手动选择2", "手动聚合", "自动选择"
       ]
     },
     {
       name: "电报消息",
-      icon: "https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png",
+      icon: "https://raw.githubusercontent.com/canff/png/main/Telegram.png",
       type: "select",
       proxies: [
-        "节点选择", "自动选择", "香港节点", "台湾节点", "狮城节点", "日本节点", "美国节点", "韩国节点", "手动选择1", "手动选择2", "手动选择3", "手动选择4", "手动聚合", "全球直连"
+        "节点选择", "自动选择", "香港节点", "台湾节点", "狮城节点", "日本节点", "美国节点", "韩国节点", "手动选择1", "手动选择2", "手动聚合", "全球直连"
       ]
     },
  
@@ -113,7 +87,7 @@ function main(config) {
       icon: "https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png",
       type: "select",
       proxies: [
-        "节点选择", "自动选择", "香港节点", "台湾节点", "狮城节点", "日本节点", "美国节点", "韩国节点", "手动选择1", "手动选择2", "手动选择3", "手动选择4", "手动聚合", "全球直连"
+        "节点选择", "自动选择", "香港节点", "台湾节点", "狮城节点", "日本节点", "美国节点", "韩国节点", "手动选择1", "手动选择2","手动聚合", "全球直连"
       ]
     },
     {
@@ -121,7 +95,7 @@ function main(config) {
       icon: "https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png",
       type: "select",
       proxies: [
-        "全球直连", "节点选择", "香港节点", "台湾节点", "狮城节点", "日本节点", "美国节点", "韩国节点", "手动选择1", "手动选择2", "手动选择3", "手动选择4", "手动聚合", "自动选择"
+        "全球直连", "节点选择", "香港节点", "台湾节点", "狮城节点", "日本节点", "美国节点", "韩国节点", "手动选择1", "手动选择2", "手动聚合", "自动选择"
       ]
     },
  
@@ -130,7 +104,7 @@ function main(config) {
       icon: "https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png",
       type: "select",
       proxies: [
-        "节点选择", "自动选择", "香港节点", "台湾节点", "狮城节点", "日本节点", "美国节点", "韩国节点", "手动选择1", "手动选择2", "手动选择3", "手动选择4", "手动聚合", "全球直连"
+        "节点选择", "自动选择", "香港节点", "台湾节点", "狮城节点", "日本节点", "美国节点", "韩国节点", "手动选择1", "手动选择2","手动聚合", "全球直连"
       ]
     },
     {
@@ -138,7 +112,7 @@ function main(config) {
       icon: "https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png",
       type: "select",
       proxies: [
-        "节点选择", "自动选择", "香港节点", "台湾节点", "狮城节点", "日本节点", "美国节点", "韩国节点", "手动选择1", "手动选择2", "手动选择3", "手动选择4", "手动聚合", "全球直连"
+        "节点选择", "自动选择", "香港节点", "台湾节点", "狮城节点", "日本节点", "美国节点", "韩国节点", "手动选择1", "手动选择2", "手动聚合", "全球直连"
       ]
     },
  
@@ -155,7 +129,7 @@ function main(config) {
       icon: "https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png",
       type: "select",
       proxies: [
-        "节点选择", "自动选择", "香港节点", "台湾节点", "狮城节点", "日本节点", "美国节点", "韩国节点", "手动选择1", "手动选择2", "手动选择3", "手动选择4", "手动聚合", "全球直连"
+        "节点选择", "自动选择", "香港节点", "台湾节点", "狮城节点", "日本节点", "美国节点", "韩国节点", "手动选择1", "手动选择2", "手动聚合", "全球直连"
       ]
     },
     {
@@ -242,7 +216,7 @@ function main(config) {
       "include-all": true,
       type: "select",
       proxies: [
-        "手动选择1", "手动选择2", "手动选择3", "手动选择4", "节点选择", "手动聚合", "自动选择", "全球直连", "电报消息", "油管视频", "哔哩哔哩", "谷歌服务", "苹果服务",  "广告拦截", "漏网之鱼", "香港节点", "台湾节点", "狮城节点", "日本节点", "美国节点", "韩国节点"
+        "手动选择1", "手动选择2","节点选择", "手动聚合", "自动选择", "全球直连", "电报消息", "油管视频", "哔哩哔哩", "谷歌服务", "苹果服务",  "广告拦截", "漏网之鱼", "香港节点", "台湾节点", "狮城节点", "日本节点", "美国节点", "韩国节点"
       ]
     }
   ];
@@ -265,9 +239,9 @@ function main(config) {
       type: "http"
     },
     Banad: {
-      url: "https://raw.githubusercontent.com/canff/surfboard/refs/heads/main/Reject.list",
-      path: "./ruleset/Reject.list",
-      behavior: "domain",
+      url: "https://raw.githubusercontent.com/canff/surfboard/refs/heads/main/Reject2.list",
+      path: "./ruleset/Reject2.list",
+      behavior: "classical",
       interval: 86400,
       format: "text",
       type: "http"
