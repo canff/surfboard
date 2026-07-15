@@ -46,7 +46,7 @@ function main(config) {
       tolerance: 50,
       url: "https://www.gstatic.com/generate_204",
       "prefer-asn": true,
-      "policy-priority": "手动选择1:1.3;手动选择2:1.3",
+      "policy-priority": "手动选择1:1.3;手动选择2:0.7",
       lazy: false,
       proxies: [
         "手动选择1",
